@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3 pamoka: Prijungiam tavo pasaulį</title>
+<meta name="description" content="Claude Code mokymai, trečia pamoka. Promptų lapas PDF formatu.">
+<meta property="og:title" content="3 pamoka: Prijungiam tavo pasaulį">
+<meta property="og:description" content="Claude Code mokymai, trečia pamoka. Promptų lapas PDF formatu.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sage:#5a6e5c;
+    --sage-dark:#3f4f41;
+    --taupe:#a1866f;
+    --cream:#efe6dd;
+    --ink:#0e0d0d;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    min-height:100vh;
+    background:var(--sage);
+    background:radial-gradient(120% 90% at 50% 0%, #6b8069 0%, var(--sage) 45%, var(--sage-dark) 100%);
+    color:var(--cream);
+    font-family:'Lato',-apple-system,'Segoe UI',sans-serif;
+    display:flex;align-items:center;justify-content:center;
+    padding:32px 20px;
+  }
+  .card{
+    width:100%;max-width:560px;
+    background:var(--cream);
+    color:var(--ink);
+    border-radius:22px;
+    padding:44px 38px 34px;
+    box-shadow:0 24px 60px rgba(0,0,0,.28);
+    text-align:center;
+  }
+  .kicker{
+    font-family:'Lato',sans-serif;
+    font-size:13px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--taupe);font-weight:700;margin-bottom:14px;
+  }
+  h1{
+    font-family:'Bebas Neue',Impact,sans-serif;
+    font-size:clamp(42px,9vw,64px);
+    line-height:.95;letter-spacing:.01em;
+    color:var(--sage-dark);
+    margin-bottom:18px;
+  }
+  .lead{font-size:17px;line-height:1.6;color:#3a3634;margin-bottom:26px}
+  ul{list-style:none;text-align:left;margin:0 auto 30px;max-width:400px}
+  li{
+    font-size:15px;line-height:1.5;color:#3a3634;
+    padding:9px 0 9px 26px;position:relative;
+    border-bottom:1px solid rgba(90,110,92,.14);
+  }
+  li:last-child{border-bottom:none}
+  li::before{
+    content:"";position:absolute;left:4px;top:16px;
+    width:8px;height:8px;border-radius:50%;background:var(--taupe);
+  }
+  .btn{
+    display:inline-block;
+    background:var(--sage-dark);color:var(--cream);
+    text-decoration:none;
+    font-family:'Bebas Neue',Impact,sans-serif;
+    font-size:24px;letter-spacing:.06em;
+    padding:16px 42px;border-radius:999px;
+    transition:transform .15s ease, background .15s ease;
+  }
+  .btn:hover{background:var(--taupe);transform:translateY(-2px)}
+  .meta{font-size:13px;color:#7a726c;margin-top:14px}
+  .handle{
+    margin-top:26px;font-size:12px;letter-spacing:.16em;
+    color:rgba(239,230,221,.75);text-transform:uppercase;
+  }
+  .wrap{width:100%;max-width:560px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <p class="kicker">Claude Code mokymai</p>
+    <h1>3 pamoka<br>Prijungiam tavo pasaulį</h1>
+    <p class="lead">Iki šiol Claude matė tik tavo kompiuterį. Šioje pamokoje jis gauna raktus nuo tavo pašto ir Instagramo, ir pradeda ten dirbti pats.</p>
+    <ul>
+      <li>Kas yra Composio ir kam jo reikia</li>
+      <li>Prijungiam tarpininką</li>
+      <li>Prijungiam paštą</li>
+      <li>Ribos, be kurių nepradedam</li>
+      <li>Instagram: pilnas prijungimas</li>
+      <li>Patikra: Instagram strategas</li>
+    </ul>
+    <a class="btn" href="/3-pamoka-prijungiam-tavo-pasauli.pdf" download>Atsisiųsti PDF</a>
+    <p class="meta">13 puslapių, promptai kopijavimui. Rugpjūčio 27 d.</p>
+  </div>
+  <p class="handle">deimante_living</p>
+</div>
+</body>
+</html>
